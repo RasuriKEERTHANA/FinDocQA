@@ -1,0 +1,294 @@
+[
+  {
+    "id": "q001",
+    "question": "What supply chain risks does Apple describe?",
+    "ticker": "AAPL",
+    "answer_phrase": "increase the cost or limit the availability of the",
+    "relevant_chunks": [
+      "AAPL_2025_1_004",
+      "AAPL_2025_1A_002",
+      "AAPL_2025_8_026",
+      "AAPL_2026_1_004",
+      "AAPL_2026_1_005",
+      "AAPL_2026_1A_002",
+      "AAPL_2026_1A_003",
+      "AAPL_2026_8_025"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q002",
+    "question": "How does Tesla describe risks from procuring battery cells from suppliers?",
+    "ticker": "TSLA",
+    "answer_phrase": "procure additional cells from suppliers",
+    "relevant_chunks": [
+      "TSLA_2024_1A_006",
+      "TSLA_2024_1A_007",
+      "TSLA_2025_1A_007",
+      "TSLA_2025_1A_008"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q003",
+    "question": "What is Apple's current stock price?",
+    "ticker": "AAPL",
+    "answer_phrase": "",
+    "relevant_chunks": [],
+    "type": "unanswerable",
+    "split": "dev"
+  },
+  {
+    "id": "q004",
+    "question": "Does Apple warn about supply shortages and price increases for components?",
+    "ticker": "AAPL",
+    "answer_phrase": "remains subject to significant risks of supply shortages and price increases",
+    "relevant_chunks": [
+      "AAPL_2025_1A_010"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q005",
+    "question": "What products does Apple design, manufacture and market?",
+    "ticker": "AAPL",
+    "answer_phrase": "designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories",
+    "relevant_chunks": [
+      "AAPL_2025_1_001",
+      "AAPL_2026_1_001"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q006",
+    "question": "Through which channels does Apple sell its products?",
+    "ticker": "AAPL",
+    "answer_phrase": "through its retail and online stores and its direct sales force",
+    "relevant_chunks": [
+      "AAPL_2025_1_002",
+      "AAPL_2026_1_002",
+      "AAPL_2026_1_003"
+    ],
+    "type": "text",
+    "split": "test"
+  },
+  {
+    "id": "q007",
+    "question": "How does Tesla say it is improving solar installation capability?",
+    "ticker": "TSLA",
+    "answer_phrase": "collaboration with real estate developers and builders on new homes",
+    "relevant_chunks": [
+      "TSLA_2024_1_002",
+      "TSLA_2024_1_003"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q008",
+    "question": "What does Tesla say about developing its infotainment software?",
+    "ticker": "TSLA",
+    "answer_phrase": "develop almost all of this software, including most of the user interfaces",
+    "relevant_chunks": [
+      "TSLA_2024_1_003",
+      "TSLA_2025_1_003",
+      "TSLA_2025_1_004"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q009",
+    "question": "Has NVIDIA received a license to ship its restricted data center products?",
+    "ticker": "NVDA",
+    "answer_phrase": "not received a license to ship these restricted products",
+    "relevant_chunks": [
+      "NVDA_2025_1_016",
+      "NVDA_2025_7_003",
+      "NVDA_2025_7_004"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q010",
+    "question": "What chip tracking or throttling requirements could affect NVIDIA GPUs?",
+    "ticker": "NVDA",
+    "answer_phrase": "requiring chip tracking and throttling mechanisms",
+    "relevant_chunks": [
+      "NVDA_2025_1A_037",
+      "NVDA_2025_1A_038",
+      "NVDA_2026_1A_038"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q011",
+    "question": "What impact does NVIDIA say the AI Diffusion rule could have on its manufacturing and warehousing options?",
+    "ticker": "NVDA",
+    "answer_phrase": "negatively impact our manufacturing",
+    "relevant_chunks": [
+      "NVDA_2025_1A_031",
+      "NVDA_2025_1A_032",
+      "NVDA_2026_1A_033"
+    ],
+    "type": "text",
+    "split": "test"
+  },
+  {
+    "id": "q012",
+    "question": "What does NVIDIA say about open-source foundation models?",
+    "ticker": "NVDA",
+    "answer_phrase": "open-source foundation models are rapidly growing in popularity",
+    "relevant_chunks": [
+      "NVDA_2026_1A_038",
+      "NVDA_2026_1A_039"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q013",
+    "question": "How could immigration rules affect Microsoft's ability to hire for research and development?",
+    "ticker": "MSFT",
+    "answer_phrase": "restrictive domestic immigration laws",
+    "relevant_chunks": [
+      "MSFT_2025_1A_035",
+      "MSFT_2026_1A_041"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q014",
+    "question": "Why might Microsoft be unable to stop supporting older products even when a more secure option exists?",
+    "ticker": "MSFT",
+    "answer_phrase": "discontinue support of our services",
+    "relevant_chunks": [
+      "MSFT_2026_1A_014"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q015",
+    "question": "What risks does Microsoft describe if harmful or illegal content appears on its platforms?",
+    "ticker": "MSFT",
+    "answer_phrase": "negatively affect our reputation",
+    "relevant_chunks": [
+      "MSFT_2025_1A_016"
+    ],
+    "type": "text",
+    "split": "test"
+  },
+  {
+    "id": "q016",
+    "question": "How could new technologies like generative AI and tokenized securities affect JPMorgan's competitive position?",
+    "ticker": "JPM",
+    "answer_phrase": "risks losing clients and market share to competitors",
+    "relevant_chunks": [
+      "JPM_2025_1A_040"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q017",
+    "question": "What kinds of extraordinary events could disrupt JPMorgan's operations and reputation?",
+    "ticker": "JPM",
+    "answer_phrase": "Firmwide resiliency framework",
+    "relevant_chunks": [
+      "JPM_2024_1A_038",
+      "JPM_2024_1A_039",
+      "JPM_2025_1A_034"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q018",
+    "question": "What role does JPMorgan have toward its bank subsidiaries under Federal Reserve rules?",
+    "ticker": "JPM",
+    "answer_phrase": "source of financial strength for its depository institution subsidiaries",
+    "relevant_chunks": [
+      "JPM_2024_1_006",
+      "JPM_2025_1_006",
+      "JPM_2025_1_007"
+    ],
+    "type": "text",
+    "split": "test"
+  },
+  {
+    "id": "q019",
+    "question": "How have US trade policy changes affected Tesla's supply chain costs?",
+    "ticker": "TSLA",
+    "answer_phrase": "heightened import tariffs and subsequent retaliatory measures",
+    "relevant_chunks": [
+      "TSLA_2025_1A_002"
+    ],
+    "type": "text",
+    "split": "dev"
+  },
+  {
+    "id": "q020",
+    "question": "What happens to Tesla if resale values of leased or financed vehicles fall below the agreed residual values?",
+    "ticker": "TSLA",
+    "answer_phrase": "residual value guarantees may be triggered",
+    "relevant_chunks": [
+      "TSLA_2024_1A_014",
+      "TSLA_2025_1A_017"
+    ],
+    "type": "text",
+    "split": "test"
+  },
+  {
+    "id": "q021",
+    "question": "What is Microsoft's current stock price?",
+    "ticker": "MSFT",
+    "answer_phrase": "",
+    "relevant_chunks": [],
+    "type": "unanswerable",
+    "split": "dev"
+  },
+  {
+    "id": "q022",
+    "question": "What will Tesla's revenue be in 2030?",
+    "ticker": "TSLA",
+    "answer_phrase": "",
+    "relevant_chunks": [],
+    "type": "unanswerable",
+    "split": "dev"
+  },
+  {
+    "id": "q023",
+    "question": "Who is NVIDIA's largest competitor's CEO?",
+    "ticker": "NVDA",
+    "answer_phrase": "",
+    "relevant_chunks": [],
+    "type": "unanswerable",
+    "split": "test"
+  },
+  {
+    "id": "q024",
+    "question": "What was JPMorgan's revenue in the year 2010?",
+    "ticker": "JPM",
+    "answer_phrase": "",
+    "relevant_chunks": [],
+    "type": "unanswerable",
+    "split": "dev"
+  },
+  {
+    "id": "q025",
+    "question": "How many iPhones did Apple sell in 2019?",
+    "ticker": "AAPL",
+    "answer_phrase": "",
+    "relevant_chunks": [],
+    "type": "unanswerable",
+    "split": "test"
+  }
+]
