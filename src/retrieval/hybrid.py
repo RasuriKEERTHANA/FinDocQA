@@ -5,12 +5,14 @@ from bm25 import BM25Index, load_chunks
 from dense import DenseIndex
 
 
-def rrf(rankings: list[list[str]], k: int = 60) -> list[tuple[str, float]]:
-    """Reciprocal Rank Fusion. rankings = list of ranked chunk_id lists."""
+
+def rrf(rankings: list[list[str]], k: int = 60, weights: list[float] | None = None):
+    """Reciprocal Rank Fusion. weights = one weight per ranking (default: all 1.0)."""
+    weights = weights or [1.0] * len(rankings)
     scores: dict[str, float] = {}
-    for ranking in rankings:
+    for ranking, w in zip(rankings, weights):
         for rank, chunk_id in enumerate(ranking, start=1):
-            scores[chunk_id] = scores.get(chunk_id, 0.0) + 1.0 / (k + rank)
+            scores[chunk_id] = scores.get(chunk_id, 0.0) + w / (k + rank)
     return sorted(scores.items(), key=lambda x: x[1], reverse=True)
 
 

@@ -1,11 +1,4 @@
-2026-11-14  baseline v2, n=19 (no filter, equal-weight RRF, 400-word chunks)
-BM25   hit@5 84%  MRR 0.747
-Dense  hit@5 89%  MRR 0.719
-Hybrid hit@5 95%  MRR 0.808
-2026-11-16  + company filter, n=19
-BM25+F   hit@5 84%   MRR 0.782
-Dense+F  hit@5 89%   MRR 0.722
-Hybrid+F hit@5 100%  MRR 0.789
+
 # FinDocQA results log
 
 Setup: 10 filings (AAPL, MSFT, NVDA, TSLA, JPM; 2 years each), 1,109 chunks
@@ -48,3 +41,12 @@ Caveat: every question names its company, and n=19 is small (1 question = ~5 poi
 2. Cross-encoder reranker on top 20-30
 3. Widen labels across filing years
 4. Grow eval set to ~50 with a fixed dev/test split
+ 
+## 2026-11-16  Weighted RRF (filtered, n=19)
+Change: weights (bm25, dense) on RRF.
+(1,1) hit@5 100%  MRR 0.789   <- keep
+(1,2) hit@5 95%   MRR 0.719
+(1,3) hit@5 95%   MRR 0.727
+(2,1) hit@5 95%   MRR 0.765
+Finding: equal weights best; weighting either side did not help.
+Caveat: n=19, and hit@5 is already at ceiling, so little room to improve.
