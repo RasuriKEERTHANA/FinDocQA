@@ -9,17 +9,23 @@ MODEL_NAME = "BAAI/bge-small-en-v1.5"
 QUERY_PREFIX = "Represent this sentence for searching relevant passages: "
 
 
+
 class DenseIndex:
-    def __init__(self, chunks: list[dict]):
+    def __init__(self, chunks: list[dict], cache: str = "data/processed/embeddings.npy"):
         self.chunks = chunks
         self.model = SentenceTransformer(MODEL_NAME)
-        emb = self.model.encode(
-            [c["text"] for c in chunks],
-            batch_size=32,
-            normalize_embeddings=True,
-            show_progress_bar=True,
-        )
-        self.index = faiss.IndexFlatIP(emb.shape[1])   # inner product = cosine (normalized)
+        cache_path = Path(cache)
+        if cache_path.exists() and len(np.load(cache_path)) == len(chunks):
+            emb = np.load(cache_path)
+        else:
+            emb = self.model.encode(
+                [c["text"] for c in chunks],
+                batch_size=32,
+                normalize_embeddings=True,
+                show_progress_bar=True,
+            )
+            np.save(cache_path, emb)
+        self.index = faiss.IndexFlatIP(emb.shape[1])
         self.index.add(np.asarray(emb, dtype="float32"))
 
     def search(self, query: str, k: int = 5) -> list[dict]:
@@ -30,6 +36,7 @@ class DenseIndex:
 
 def load_chunks(path: str = "data/processed/all_chunks.json") -> list[dict]:
     return json.loads(Path(path).read_text(encoding="utf-8"))
+
 
 
 if __name__ == "__main__":
