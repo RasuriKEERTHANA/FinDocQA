@@ -2,6 +2,7 @@ import sys
 
 sys.path.insert(0, "src/retrieval")
 sys.path.insert(0, "src/agent")
+sys.path.insert(0, "src")
 
 from bm25 import BM25Index, load_chunks
 from dense import DenseIndex
@@ -64,3 +65,15 @@ if __name__ == "__main__":
         print("\nQ:", out["question"])
         print("A:", out["answer"])
         print("Retrieved:", out["retrieved"])
+    from verify.citations import verify
+    print("\n--- VERIFY ---")
+    for q in ["What supply chain risks does Apple describe?",
+              "How does Tesla describe risks from procuring battery cells from suppliers?"]:
+        out = answer(r, q)
+        v = verify(out["answer"], out["retrieved"], r.by_id)
+        print(q, "->", v["unsupported"], "of", v["total"], "claims flagged")
+        for c in v["claims"]:
+            if c["problems"]:
+                print("   ", c["problems"], "|", c["claim"][:80])
+
+              
