@@ -1,0 +1,277 @@
+{
+  "q001": {
+    "question": "What supply chain risks does Apple describe?",
+    "answer": "Apple relies on outsourcing partners outside the U.S. (primarily in China mainland, India, Japan, South Korea, Taiwan, and Vietnam) and single-source partners for many components and final hardware assembly [AAPL_2026_1A_008]. This reduces direct control over production and distribution, leading to potential adverse effects on cost, quality, and quantity, and creates supply and pricing risks [AAPL_2026_1A_008]. Supply chain operations are also vulnerable to international trade restrictions and tariffs, natural disasters, climate change, industrial accidents, public health issues, cybersecurity attacks, and labor disputes [AAPL_2026_1A_003, AAPL_2025_1A_004, AAPL_2025_1A_002]. These events can increase costs, limit component and product availability, cause delivery delays, and require expensive supply chain restructuring [AAPL_2026_1A_003, AAPL_2025_1A_004, AAPL_2025_1A_002].",
+    "retrieved": [
+      "AAPL_2026_1A_008",
+      "AAPL_2026_1A_003",
+      "AAPL_2025_1A_004",
+      "AAPL_2026_1A_001",
+      "AAPL_2025_1A_002"
+    ]
+  },
+  "q002": {
+    "question": "How does Tesla describe risks from procuring battery cells from suppliers?",
+    "answer": "Tesla relies on suppliers like Panasonic and CATL for lithium-ion battery cells and has fully qualified only a very limited number of suppliers, leaving them with limited flexibility to change suppliers [TSLA_2024_1A_006]. Any disruption in this supply could limit the production of vehicles and energy storage products [TSLA_2024_1A_006]. Additionally, if Tesla cannot successfully manufacture its own cells, it may have to procure additional cells from suppliers at potentially greater costs, which could harm its business and operating results [TSLA_2024_1A_006]. Furthermore, suppliers may not be willing or able to reliably meet Tesla's timelines, costs, or quality needs, requiring replacements [TSLA_2024_1A_007].",
+    "retrieved": [
+      "TSLA_2024_1A_007",
+      "TSLA_2024_1A_012",
+      "TSLA_2024_1A_006",
+      "TSLA_2025_1A_007",
+      "TSLA_2025_1A_008"
+    ]
+  },
+  "q003": {
+    "question": "What is Apple's current stock price?",
+    "answer": "I don't know based on the provided filings.",
+    "retrieved": [
+      "AAPL_2026_8_023",
+      "AAPL_2025_8_003",
+      "AAPL_2026_8_003",
+      "AAPL_2025_8_024",
+      "AAPL_2026_8_002"
+    ]
+  },
+  "q004": {
+    "question": "Does Apple warn about supply shortages and price increases for components?",
+    "answer": "Yes, Apple warns that its products and components are subject to industry-wide shortages and significant commodity pricing fluctuations, and that it is experiencing supply constraints and rising costs for key components like advanced semiconductors, memory, and storage [AAPL_2026_1A_009, AAPL_2026_7_001]. The company notes that these supply shortages and price increases can materially and adversely affect its business, results of operations, financial condition, and stock price [AAPL_2025_1A_009, AAPL_2025_1A_010].",
+    "retrieved": [
+      "AAPL_2026_1A_009",
+      "AAPL_2025_1A_009",
+      "AAPL_2025_1A_010",
+      "AAPL_2026_7_001",
+      "AAPL_2026_1_005"
+    ]
+  },
+  "q005": {
+    "question": "What products does Apple design, manufacture and market?",
+    "answer": "Apple designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories, alongside selling a variety of related services [AAPL_2026_1_001].",
+    "retrieved": [
+      "AAPL_2025_1_005",
+      "AAPL_2026_1_007",
+      "AAPL_2026_1_003",
+      "AAPL_2026_1_001",
+      "AAPL_2025_1_001"
+    ]
+  },
+  "q006": {
+    "question": "Through which channels does Apple sell its products?",
+    "answer": "Apple sells its products directly to customers through its retail and online stores and its direct sales force [AAPL_2025_1_002, AAPL_2026_1_002, AAPL_2026_1_003, AAPL_2025_1_003]. Additionally, the company employs a variety of indirect distribution channels, such as third-party cellular network carriers and other resellers, for the sale of its products [AAPL_2025_1_002, AAPL_2026_1_002, AAPL_2026_1_003, AAPL_2025_1_003].",
+    "retrieved": [
+      "AAPL_2025_1_002",
+      "AAPL_2026_1_002",
+      "AAPL_2026_1_003",
+      "AAPL_2025_1_003",
+      "AAPL_2025_1_006"
+    ]
+  },
+  "q007": {
+    "question": "How does Tesla say it is improving solar installation capability?",
+    "answer": "Tesla states it is improving its installation capability and efficiency through collaboration with real estate developers and builders on new homes [TSLA_2024_1_002].",
+    "retrieved": [
+      "TSLA_2024_1_002",
+      "TSLA_2025_7_005",
+      "TSLA_2025_1_004",
+      "TSLA_2024_1A_005",
+      "TSLA_2025_1_008"
+    ]
+  },
+  "q008": {
+    "question": "What does Tesla say about developing its infotainment software?",
+    "answer": "Tesla develops almost all of its infotainment software internally, including most of the user interfaces, and updates it regularly through over-the-air updates [TSLA_2025_1_004, TSLA_2025_1_003].",
+    "retrieved": [
+      "TSLA_2025_1_004",
+      "TSLA_2025_1_003",
+      "TSLA_2024_1_003",
+      "TSLA_2024_1_005",
+      "TSLA_2025_1_006"
+    ]
+  },
+  "q009": {
+    "question": "Has NVIDIA received a license to ship its restricted data center products?",
+    "answer": "In February 2026, the USG granted a license allowing NVIDIA to ship small amounts of H200 products to specific China-based customers [NVDA_2026_1_016]. However, to date, NVIDIA has not received licenses to ship other restricted products to China, and partners and customers have also not received a license to ship these restricted products [NVDA_2025_1_016].",
+    "retrieved": [
+      "NVDA_2025_7_004",
+      "NVDA_2025_1_016",
+      "NVDA_2025_1A_036",
+      "NVDA_2025_1_005",
+      "NVDA_2026_1_016"
+    ]
+  },
+  "q010": {
+    "question": "What chip tracking or throttling requirements could affect NVIDIA GPUs?",
+    "answer": "Government mandates and licensing requirements could require chip tracking and throttling mechanisms that have the ability to disable or impair GPUs if certain events, such as unauthorized system configuration, use, or location, are detected [NVDA_2025_1A_038, NVDA_2026_1A_038].",
+    "retrieved": [
+      "NVDA_2025_1A_038",
+      "NVDA_2026_1A_038",
+      "NVDA_2026_1_004",
+      "NVDA_2026_1_008",
+      "NVDA_2025_1_001"
+    ]
+  },
+  "q011": {
+    "question": "What impact does NVIDIA say the AI Diffusion rule could have on its manufacturing and warehousing options?",
+    "answer": "The AI Diffusion rule (or IFR) could negatively impact NVIDIA's manufacturing, testing, and warehousing locations and options [NVDA_2025_1A_032, NVDA_2025_1A_031].",
+    "retrieved": [
+      "NVDA_2025_1A_032",
+      "NVDA_2025_1A_031",
+      "NVDA_2025_1A_036",
+      "NVDA_2026_1_001",
+      "NVDA_2026_1A_033"
+    ]
+  },
+  "q012": {
+    "question": "What does NVIDIA say about open-source foundation models?",
+    "answer": "NVIDIA states that open-source foundation models are rapidly growing in popularity with developers worldwide [NVDA_2026_1A_039]. Additionally, NVIDIA has accelerated the release cadence of its open AI model platforms, such as NVIDIA Nemotron for agentic AI and Cosmos for physical AI, in support of market development [NVDA_2026_1_003]. The company is also recognized as a leader in accelerating and releasing open AI models that enterprises, sovereigns, and startups can leverage to develop and run applications on its platform [NVDA_2026_1_009]. Furthermore, NVIDIA notes that regulatory controls or restrictions limiting its ability to support third-party applications and models\u2014including foundation models originating in China like DeepSeek, Qwen, or KIMMI\u2014could materially impact its business, operating results, and financial condition [NVDA_2026_1A_039].",
+    "retrieved": [
+      "NVDA_2026_1_006",
+      "NVDA_2026_1_003",
+      "NVDA_2026_1_009",
+      "NVDA_2026_1A_039",
+      "NVDA_2025_1_009"
+    ]
+  },
+  "q013": {
+    "question": "How could immigration rules affect Microsoft's ability to hire for research and development?",
+    "answer": "Restrictive domestic immigration laws limit international recruitment, and changes to U.S. immigration policies or laws can restrain the flow of technical and professional talent, which may inhibit the ability to adequately staff research and development efforts [MSFT_2025_1A_035, MSFT_2026_1A_041].",
+    "retrieved": [
+      "MSFT_2025_1A_035",
+      "MSFT_2026_1A_041",
+      "MSFT_2026_1_003",
+      "MSFT_2025_1A_018",
+      "MSFT_2025_1_003"
+    ]
+  },
+  "q014": {
+    "question": "Why might Microsoft be unable to stop supporting older products even when a more secure option exists?",
+    "answer": "Microsoft may be unable to discontinue support for products, services, standards, or features solely because a more secure alternative is available because customers operate complex systems with third-party hardware and software from multiple vendors (including systems acquired over many years) and expect Microsoft's products and services to support all of these systems and products, including those that no longer incorporate the strongest current security advances or standards [MSFT_2026_1A_014, MSFT_2025_1A_012].",
+    "retrieved": [
+      "MSFT_2026_1A_014",
+      "MSFT_2025_1A_012",
+      "MSFT_2025_1_021",
+      "MSFT_2025_1A_013",
+      "MSFT_2025_1A_030"
+    ]
+  },
+  "q015": {
+    "question": "What risks does Microsoft describe if harmful or illegal content appears on its platforms?",
+    "answer": "If harmful or illegal content appears on its platforms, Microsoft may experience negative effects on its reputation, brands, and user engagement [MSFT_2025_1A_016, MSFT_2026_1A_019]. It could also impact the company's business in certain markets [MSFT_2026_1A_019]. Furthermore, failure to comply with content requirements and regulations designed to eliminate harmful content online can subject Microsoft to enhanced regulatory oversight, civil or criminal liability, fines, penalties, or reputational damage, which could adversely affect its business, financial condition, and results of operations [MSFT_2025_1A_016, MSFT_2026_1A_019].",
+    "retrieved": [
+      "MSFT_2025_1A_016",
+      "MSFT_2026_1A_020",
+      "MSFT_2026_1A_019",
+      "MSFT_2025_1A_018",
+      "MSFT_2026_1A_018"
+    ]
+  },
+  "q016": {
+    "question": "How could new technologies like generative AI and tokenized securities affect JPMorgan's competitive position?",
+    "answer": "New technologies like generative AI and tokenized securities could affect JPMorgan's competitive position in several ways:\n\n* Non-depository institutions and other companies can use these technologies to offer electronic and internet-based financial solutions (such as tokenized securities and online automated investment advice), potentially leading to lost market share and negative impacts on revenues and operating costs if JPMorgan fails to keep pace [JPM_2025_1A_040].\n* Competitors deploying AI more quickly or effectively could gain advantages in cost efficiency, client experience, or product innovation, resulting in a loss of market share [JPM_2025_1A_042].\n* AI agents could replace or disintermediate direct customer relationships by autonomously managing financial decisions [JPM_2025_1A_042]. \n* Conversely, failing to adopt AI in a timely manner could squander potential efficiencies and competitive advantages [JPM_2025_1A_042].",
+    "retrieved": [
+      "JPM_2025_1A_040",
+      "JPM_2025_1A_041",
+      "JPM_2025_1A_042",
+      "JPM_2025_1A_039",
+      "JPM_2025_1A_047"
+    ]
+  },
+  "q017": {
+    "question": "What kinds of extraordinary events could disrupt JPMorgan's operations and reputation?",
+    "answer": "JPMorgan's operations and reputation could be disrupted by extraordinary events such as:\n- Cyber attacks and physical security breaches [JPM_2024_1A_038]\n- Power, telecommunications, or internet outages, and mass transit shutdowns [JPM_2024_1A_038, JPM_2025_1A_034]\n- Technology or operational system failures or loss of access, including critical data loss [JPM_2024_1A_038, JPM_2025_1A_034]\n- Third-party service provider interruptions [JPM_2024_1A_038, JPM_2025_1A_034]\n- Property or asset damage, loss, or injuries (including from construction projects) [JPM_2024_1A_038, JPM_2025_1A_034]\n- Climate change effects, natural disasters, or severe weather [JPM_2024_1A_038, JPM_2025_1A_034]\n- Accidents like explosions or structural failures [JPM_2024_1A_038, JPM_2025_1A_034]\n- Health emergencies, pandemics, epidemics, or infectious disease spreads [JPM_2024_1A_038, JPM_2025_1A_034]\n- Civil or political unrest, hostilities, war, terrorist acts, or other violence and criminal activity [JPM_2024_1A_038, JPM_2025_1A_034]",
+    "retrieved": [
+      "JPM_2024_1A_039",
+      "JPM_2025_1A_035",
+      "JPM_2024_1A_038",
+      "JPM_2025_1A_034",
+      "JPM_2024_1A_014"
+    ]
+  },
+  "q018": {
+    "question": "What role does JPMorgan have toward its bank subsidiaries under Federal Reserve rules?",
+    "answer": "JPMorgan Chase & Co. is required to serve as a source of financial strength for its depository institution subsidiaries and must commit resources to support them, including when directed to do so by the Federal Reserve [JPM_2024_1_006, JPM_2025_1_007].",
+    "retrieved": [
+      "JPM_2025_1_003",
+      "JPM_2024_1_003",
+      "JPM_2024_1_006",
+      "JPM_2024_1_007",
+      "JPM_2025_1_007"
+    ]
+  },
+  "q019": {
+    "question": "How have US trade policy changes affected Tesla's supply chain costs?",
+    "answer": "U.S. trade policy alterations in 2025, including heightened import tariffs and subsequent retaliatory measures, have impacted Tesla's supply chain costs [TSLA_2025_1A_002].",
+    "retrieved": [
+      "TSLA_2025_7_004",
+      "TSLA_2025_1A_012",
+      "TSLA_2025_1A_002",
+      "TSLA_2025_1A_008",
+      "TSLA_2024_1_006"
+    ]
+  },
+  "q020": {
+    "question": "What happens to Tesla if resale values of leased or financed vehicles fall below the agreed residual values?",
+    "answer": "If actual resale values fall below agreed residual values, residual value guarantees may be triggered [TSLA_2025_1A_017, TSLA_2024_1A_014]. As a result, Tesla's financial condition and operating results may be harmed [TSLA_2025_1A_017, TSLA_2024_1A_014].",
+    "retrieved": [
+      "TSLA_2025_1A_017",
+      "TSLA_2024_1A_014",
+      "TSLA_2025_1A_016",
+      "TSLA_2024_1A_013",
+      "TSLA_2024_8_014"
+    ]
+  },
+  "q021": {
+    "question": "What is Microsoft's current stock price?",
+    "answer": "I don't know based on the provided filings.",
+    "retrieved": [
+      "MSFT_2025_7_002",
+      "MSFT_2026_7_002",
+      "MSFT_2026_8_045",
+      "MSFT_2025_8_044",
+      "MSFT_2025_8_050"
+    ]
+  },
+  "q022": {
+    "question": "What will Tesla's revenue be in 2030?",
+    "answer": "I don't know based on the provided filings.",
+    "retrieved": [
+      "TSLA_2025_8_019",
+      "TSLA_2024_8_017",
+      "TSLA_2024_8_062",
+      "TSLA_2025_8_074",
+      "TSLA_2024_7_003"
+    ]
+  },
+  "q023": {
+    "question": "Who is NVIDIA's largest competitor's CEO?",
+    "answer": "I don't know based on the provided filings.",
+    "retrieved": [
+      "NVDA_2026_1_006",
+      "NVDA_2026_1_004",
+      "NVDA_2026_1_002",
+      "NVDA_2025_1_006",
+      "NVDA_2026_1_001"
+    ]
+  },
+  "q024": {
+    "question": "What was JPMorgan's revenue in the year 2010?",
+    "answer": "I don't know based on the provided filings.",
+    "retrieved": [
+      "JPM_2024_1_001",
+      "JPM_2025_1_001",
+      "JPM_2024_1A_025",
+      "JPM_2025_1_012",
+      "JPM_2024_1_008"
+    ]
+  },
+  "q025": {
+    "question": "How many iPhones did Apple sell in 2019?",
+    "answer": "I don't know based on the provided filings.",
+    "retrieved": [
+      "AAPL_2026_1_001",
+      "AAPL_2025_1_001",
+      "AAPL_2026_8_018",
+      "AAPL_2025_1_002",
+      "AAPL_2026_7_001"
+    ]
+  }
+}
